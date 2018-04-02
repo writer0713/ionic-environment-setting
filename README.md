@@ -97,3 +97,9 @@ $ ionic cordova build browser --prod
 
 ![Dev Mode](./dev.png)
 ![Prod Mode](./prod.png)
+
+
+<hr>
+
+### notice
+*** From IONIC 4, ENV variables will be handled. It means you don't need to modify or add things with webpack ***
