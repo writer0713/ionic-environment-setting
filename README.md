@@ -94,3 +94,6 @@ $ ionic cordova build ios --prod
 $ ionic cordova build android --prod
 $ ionic cordova build browser --prod
 ```
+
+![Dev Mode](./dev.png)
+![Prod Mode](./prod.png)
