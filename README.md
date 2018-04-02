@@ -102,4 +102,4 @@ $ ionic cordova build browser --prod
 <hr>
 
 ### notice
-*** From IONIC 4, ENV variables will be handled. It means you don't need to modify or add things with webpack ***
+***From IONIC 4, ENV variables will be handled. It means you don't need to modify or add things with webpack***
