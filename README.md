@@ -88,7 +88,7 @@ export const ENV: Environment = {
 ### Things you need to know before build
 
 - ***ionic serve*** doesn't support ***--prod***. (It means though you add ***--prod***, it just uses --dev mode)
-- when you use below commands for ***--prod*** mode.
+- You can use below commands for ***--prod*** mode.
 ```
 $ ionic cordova build ios --prod
 $ ionic cordova build android --prod
