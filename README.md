@@ -1,11 +1,12 @@
 # Ionic 3.9.2 Environment Settings Starter
-### need to add below files
+
+### Need to add below files
 
 
 ![Package](./project.png)
 
 
-### config/webpack.config.js
+#### config/webpack.config.js
 ```
 
 var path = require('path');
@@ -30,14 +31,14 @@ module.exports = function () {
 
 ```
 
-### src/env/env.interface.ts
+#### src/env/env.interface.ts
 ```
 export interface Environment {
   mode: string;
 }
 ```
 
-### src/env/env.ts
+#### src/env/env.ts
 ```
 import {Environment} from "./env.interface";
 
@@ -46,7 +47,7 @@ export const ENV: Environment = {
 }
 ```
 
-### src/env/env.prod.ts
+#### src/env/env.prod.ts
 ```
 import {Environment} from "./env.interface";
 
@@ -55,7 +56,7 @@ export const ENV: Environment = {
 }
 ```
 
-### package.json (add below "config")
+#### package.json (add below "config")
 ```
 {
   ...
@@ -66,7 +67,7 @@ export const ENV: Environment = {
 }
 ```
 
-### tsconfig.json (add below "baseUrl, paths" in the compilerOptions object)
+#### tsconfig.json (add below "baseUrl, paths" in the compilerOptions object)
 ```
 {
   "compilerOptions": {
