@@ -7,7 +7,7 @@
 
 
 #### config/webpack.config.js
-```
+```javascript
 
 var path = require('path');
 var defaultConfig = require('@ionic/app-scripts/config/webpack.config.js');
@@ -32,14 +32,14 @@ module.exports = function () {
 ```
 
 #### src/env/env.interface.ts
-```
+```javascript
 export interface Environment {
   mode: string;
 }
 ```
 
 #### src/env/env.ts
-```
+```javascript
 import {Environment} from "./env.interface";
 
 export const ENV: Environment = {
@@ -48,7 +48,7 @@ export const ENV: Environment = {
 ```
 
 #### src/env/env.prod.ts
-```
+```javascript
 import {Environment} from "./env.interface";
 
 export const ENV: Environment = {
@@ -57,7 +57,7 @@ export const ENV: Environment = {
 ```
 
 #### package.json (add below "config")
-```
+```javascript
 {
   ...
   "config": {
@@ -68,7 +68,7 @@ export const ENV: Environment = {
 ```
 
 #### tsconfig.json (add below "baseUrl, paths" in the compilerOptions object)
-```
+```javascript
 {
   "compilerOptions": {
     ...
