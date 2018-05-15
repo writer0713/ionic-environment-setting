@@ -1,4 +1,4 @@
-# Ionic 3.9.2 Environment Settings Starter
+# Ionic Project Environment Settings Starter
 
 ### Need to add below files
 
